@@ -21,6 +21,7 @@
     "ender"
   ],
   "devDependencies": {
+    "electron": "^30.0.0",
     "api-easy": "0.4.x",
     "codesurgeon": "https://github.com/hij1nx/codesurgeon/tarball/master",
     "colors": "1.0.x",
@@ -36,6 +37,7 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "vows test/server/*/*-test.js --spec"
+    "test": "vows test/server/*/*-test.js --spec",
+    "electron-demo": "electron examples/electron-browser/main.js"
   }
 }
